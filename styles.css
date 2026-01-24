@@ -24,7 +24,7 @@
    🔘 TEMA ATIVO - DESCOMENTE APENAS UM!
    ═══════════════════════════════════════════════════════ */
 
-/* ✅ BRANCO NEON (ATIVO) */
+/* ✅ BRANCO NEON (ATIVO) 
 :root {
     --theme-primary: #e0e0e0;
     --theme-light: #ffffff;
@@ -35,7 +35,7 @@
     --gradient-end: #9a9a9a;
 }
 */
-/* ❌ ROXO NEON
+ ❌ ROXO NEON
 :root {
     --theme-primary: #a855f7;
     --theme-light: #c084fc;
@@ -3326,5 +3326,6 @@ button.project-link {
         height: 36px;
     }
 }
+
 
 
