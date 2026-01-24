@@ -34,7 +34,7 @@
     --gradient-start: #e0e0e0;
     --gradient-end: #9a9a9a;
 }
-
+*/
 /* ❌ ROXO NEON
 :root {
     --theme-primary: #a855f7;
@@ -45,7 +45,6 @@
     --gradient-start: #c084fc;
     --gradient-end: #7c3aed;
 }
-*/
 
 /* ❌ ROSA NEON
 :root {
@@ -3327,4 +3326,5 @@ button.project-link {
         height: 36px;
     }
 }
+
 
