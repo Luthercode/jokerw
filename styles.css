@@ -95,7 +95,7 @@
 }
 */
 
-/* ❌ VERMELHO NEON */
+/* ❌ VERMELHO NEON 
 :root {
     --theme-primary: #ef4444;
     --theme-light: #f87171;
@@ -105,9 +105,8 @@
     --gradient-start: #f87171;
     --gradient-end: #dc2626;
 }
-*/
 
-/* ❌ LARANJA NEON
+/* ❌ LARANJA NEON 
 :root {
     --theme-primary: #f97316;
     --theme-light: #fb923c;
