@@ -566,7 +566,7 @@ function initProjectModal() {
    
    ===================================================== */
 
-const DISCORD_USER_ID = '1150940661533638737'; // 👈 TROQUE PELO SEU ID
+const DISCORD_USER_ID = '1495016716303077397'; // 👈 TROQUE PELO SEU ID
 
 function initLanyard() {
     const card = document.getElementById('lanyardCard');

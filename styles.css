@@ -1731,29 +1731,47 @@ section {
 
 .skills {
     background-color: var(--color-bg);
+    margin-top: 100px;
+    padding: 60px 0;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .skill-category {
     background: linear-gradient(135deg, var(--color-bg-secondary) 0%, var(--color-bg-tertiary) 100%);
-    border: 1px solid var(--color-gray);
-    padding: 30px;
-    transition: all 0.3s;
+    border: 2px solid var(--color-blood-dark);
+    padding: 50px;
+    transition: all 0.4s ease;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
 }
 
-.creepy-card {
-    border-color: var(--color-blood-dark);
+.skill-category::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+    transition: left 0.5s ease;
 }
 
-.creepy-card:hover {
+.skill-category:hover {
     border-color: var(--color-blood);
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.12);
-    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(224, 224, 224, 0.15), inset 0 0 20px rgba(224, 224, 224, 0.02);
+    transform: translateY(-8px);
+}
+
+.skill-category:hover::before {
+    left: 100%;
 }
 
 .category-header {
@@ -1804,22 +1822,23 @@ section {
 }
 
 .skill-bar {
-    height: 6px;
+    height: 10px;
     background-color: var(--color-gray);
-    border-radius: 3px;
+    border-radius: 5px;
     overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .skill-progress {
     height: 100%;
     width: 0%;
-    border-radius: 3px;
+    border-radius: 5px;
     transition: width 1.5s ease;
 }
 
 .blood-bar {
     background: linear-gradient(90deg, var(--theme-dark), var(--theme-primary), var(--theme-light));
-    box-shadow: 0 0 10px var(--color-neon-strong);
+    box-shadow: 0 0 15px var(--color-neon-strong), inset 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 /* Tools Grid */
