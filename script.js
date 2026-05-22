@@ -1,5 +1,5 @@
 /* =====================================================
-   LUTHER PORTFOLIO - Dark Creepy Joker Theme JS
+   RUST PORTFOLIO - Dark Creepy Joker Theme JS
    ===================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {

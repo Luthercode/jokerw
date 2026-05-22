@@ -1,4 +1,4 @@
-# 📁 Projetos de Luther
+# 📁 Projetos de Rust
 
 Esta pasta é destinada aos arquivos e recursos dos seus projetos.
 
@@ -43,7 +43,7 @@ Adicione um novo card de projeto dentro da `<div class="projects-grid">`:
                 <span>Demo</span>
                 <span>→</span>
             </a>
-            <a href="https://github.com/luther/projeto" class="project-link" target="_blank">
+            <a href="https://github.com/rust/projeto" class="project-link" target="_blank">
                 <span>GitHub</span>
                 <span>→</span>
             </a>
@@ -131,7 +131,7 @@ projects/
                 <span>Demo</span>
                 <span>→</span>
             </a>
-            <a href="https://github.com/luther/ecommerce" class="project-link" target="_blank">
+            <a href="https://github.com/rust/ecommerce" class="project-link" target="_blank">
                 <span>GitHub</span>
                 <span>→</span>
             </a>
