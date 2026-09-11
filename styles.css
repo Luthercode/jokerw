@@ -24,7 +24,7 @@
    🔘 TEMA ATIVO - DESCOMENTE APENAS UM!
    ═══════════════════════════════════════════════════════ */
 
- ✅ BRANCO NEON (ATIVO) 
+/* ✅ BRANCO NEON (ATIVO) */
 :root {
     --theme-primary: #e0e0e0;
     --theme-light: #ffffff;
@@ -34,7 +34,9 @@
     --gradient-start: #e0e0e0;
     --gradient-end: #9a9a9a;
 }
-/* ❌ ROXO NEON 
+
+/* ❌ ROXO NEON */
+/*
 :root {
     --theme-primary: #a855f7;
     --theme-light: #c084fc;
@@ -46,7 +48,8 @@
 }
 */
 
-/* ❌ ROSA NEON
+/* ❌ ROSA NEON */
+/*
 :root {
     --theme-primary: #ec4899;
     --theme-light: #f472b6;
@@ -58,7 +61,8 @@
 }
 */
 
-/* ❌ AMARELO NEON 
+/* ❌ AMARELO NEON */
+/*
 :root {
     --theme-primary: #facc15;
     --theme-light: #fde047;
@@ -70,7 +74,8 @@
 }
 */
 
-/* ❌ AZUL NEON
+/* ❌ AZUL NEON */
+/*
 :root {
     --theme-primary: #3b82f6;
     --theme-light: #60a5fa;
@@ -82,7 +87,8 @@
 }
 */
 
-/* ❌ VERDE NEON
+/* ❌ VERDE NEON */
+/*
 :root {
     --theme-primary: #22c55e;
     --theme-light: #4ade80;
@@ -94,7 +100,8 @@
 }
 */
 
-/* ❌ VERMELHO NEON 
+/* ❌ VERMELHO NEON */
+/*
 :root {
     --theme-primary: #ef4444;
     --theme-light: #f87171;
@@ -106,7 +113,8 @@
 }
 */
 
-/* ❌ LARANJA NEON 
+/* ❌ LARANJA NEON */
+/*
 :root {
     --theme-primary: #f97316;
     --theme-light: #fb923c;
@@ -118,7 +126,8 @@
 }
 */
 
-/* ❌ CIANO NEON
+/* ❌ CIANO NEON */
+/*
 :root {
     --theme-primary: #06b6d4;
     --theme-light: #22d3ee;
@@ -3355,6 +3364,5 @@ button.project-link {
         height: 36px;
     }
 }
-
 
 
