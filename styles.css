@@ -34,7 +34,7 @@
     --gradient-start: #e0e0e0;
     --gradient-end: #9a9a9a;
 }
-
+*/
 /* ❌ ROXO NEON 
 :root {
     --theme-primary: #a855f7;
@@ -45,7 +45,7 @@
     --gradient-start: #c084fc;
     --gradient-end: #7c3aed;
 }
-
+*/
 
 /* ❌ ROSA NEON
 :root {
@@ -59,7 +59,7 @@
 }
 */
 
-/* ❌ AMARELO NEON 
+ ❌ AMARELO NEON 
 :root {
     --theme-primary: #facc15;
     --theme-light: #fde047;
@@ -69,7 +69,6 @@
     --gradient-start: #fde047;
     --gradient-end: #eab308;
 }
-*/
 
 /* ❌ AZUL NEON
 :root {
@@ -105,6 +104,7 @@
     --gradient-start: #f87171;
     --gradient-end: #dc2626;
 }
+*/
 
 /* ❌ LARANJA NEON 
 :root {
