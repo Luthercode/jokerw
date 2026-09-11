@@ -24,7 +24,7 @@
    🔘 TEMA ATIVO - DESCOMENTE APENAS UM!
    ═══════════════════════════════════════════════════════ */
 
- ✅ BRANCO NEON (ATIVO) 
+/* ✅ BRANCO NEON (ATIVO) 
 :root {
     --theme-primary: #e0e0e0;
     --theme-light: #ffffff;
@@ -58,7 +58,7 @@
 }
 */
 
-/* ❌ AMARELO NEON 
+ ❌ AMARELO NEON 
 :root {
     --theme-primary: #facc15;
     --theme-light: #fde047;
@@ -68,7 +68,6 @@
     --gradient-start: #fde047;
     --gradient-end: #eab308;
 }
-*/
 
 /* ❌ AZUL NEON
 :root {
