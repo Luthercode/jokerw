@@ -1,32 +1,8 @@
 /* =====================================================
-   RUST PORTFOLIO - NEON JOKER THEME SYSTEM
-   =====================================================
-   
-   🎨 COMO TROCAR O TEMA:
-   =====================================================
-   Para mudar a cor do site, simplesmente descomente UMA
-   das opções abaixo e comente as outras.
-   
-   TEMAS DISPONÍVEIS:
-   - Branco Neon (Padrão)
-   - Roxo Neon
-   - Rosa Neon  
-   - Amarelo Neon
-   - Azul Neon
-   - Verde Neon
-   - Vermelho Neon
-   - Laranja Neon
-   - Ciano Neon
-   
+   TEMA ATIVO (troque data-theme para: white, purple, pink, yellow, blue, green, red, orange, cyan)
    ===================================================== */
-
-/* ═══════════════════════════════════════════════════════
-   🔘 TEMA ATIVO - DESCOMENTE APENAS UM!
-   ═══════════════════════════════════════════════════════ */
-
-/* ✅ BRANCO NEON (ATIVO) 
 :root {
-    --theme-primary: #e0e0e0;
+    --theme-primary: #e0e0e0;  /* white */
     --theme-light: #ffffff;
     --theme-dark: #9a9a9a;
     --theme-glow: rgba(255, 255, 255, 0.15);
@@ -34,8 +10,9 @@
     --gradient-start: #e0e0e0;
     --gradient-end: #9a9a9a;
 }
-/* ❌ ROXO NEON 
-:root {
+
+/* Roxo */
+:root[data-theme="purple"] {
     --theme-primary: #a855f7;
     --theme-light: #c084fc;
     --theme-dark: #7c3aed;
@@ -44,10 +21,9 @@
     --gradient-start: #c084fc;
     --gradient-end: #7c3aed;
 }
-*/
 
-/* ❌ ROSA NEON
-:root {
+/* Rosa */
+:root[data-theme="pink"] {
     --theme-primary: #ec4899;
     --theme-light: #f472b6;
     --theme-dark: #db2777;
@@ -56,10 +32,9 @@
     --gradient-start: #f472b6;
     --gradient-end: #db2777;
 }
-*/
 
- ❌ AMARELO NEON 
-:root {
+/* Amarelo */
+:root[data-theme="yellow"] {
     --theme-primary: #facc15;
     --theme-light: #fde047;
     --theme-dark: #eab308;
@@ -69,8 +44,8 @@
     --gradient-end: #eab308;
 }
 
-/* ❌ AZUL NEON
-:root {
+/* Azul */
+:root[data-theme="blue"] {
     --theme-primary: #3b82f6;
     --theme-light: #60a5fa;
     --theme-dark: #2563eb;
@@ -79,10 +54,9 @@
     --gradient-start: #60a5fa;
     --gradient-end: #2563eb;
 }
-*/
 
-/* ❌ VERDE NEON
-:root {
+/* Verde */
+:root[data-theme="green"] {
     --theme-primary: #22c55e;
     --theme-light: #4ade80;
     --theme-dark: #16a34a;
@@ -91,10 +65,9 @@
     --gradient-start: #4ade80;
     --gradient-end: #16a34a;
 }
-*/
 
-/* ❌ VERMELHO NEON 
-:root {
+/* Vermelho */
+:root[data-theme="red"] {
     --theme-primary: #ef4444;
     --theme-light: #f87171;
     --theme-dark: #dc2626;
@@ -103,10 +76,9 @@
     --gradient-start: #f87171;
     --gradient-end: #dc2626;
 }
-*/
 
-/* ❌ LARANJA NEON 
-:root {
+/* Laranja */
+:root[data-theme="orange"] {
     --theme-primary: #f97316;
     --theme-light: #fb923c;
     --theme-dark: #ea580c;
@@ -115,10 +87,9 @@
     --gradient-start: #fb923c;
     --gradient-end: #ea580c;
 }
-*/
 
-/* ❌ CIANO NEON
-:root {
+/* Ciano */
+:root[data-theme="cyan"] {
     --theme-primary: #06b6d4;
     --theme-light: #22d3ee;
     --theme-dark: #0891b2;
@@ -127,7 +98,6 @@
     --gradient-start: #22d3ee;
     --gradient-end: #0891b2;
 }
-*/
 
 /* ═══════════════════════════════════════════════════════
    CORES BASE (NÃO MEXER!)
